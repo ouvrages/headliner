@@ -15,11 +15,7 @@ describe "Headliner" do
     it "should respond to 'title' helper" do
       @view.should respond_to(:title)
     end
-    
-    it "should respond to 'title' helper alias" do
-      @view.should respond_to(:t)
-    end
-    
+
   end
   
   describe "saving title" do
